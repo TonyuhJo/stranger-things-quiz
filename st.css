@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 300px;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  main {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .startButton {
+    margin-top: 30px;
+  }
