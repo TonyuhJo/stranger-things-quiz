@@ -1,10 +1,19 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Cinzel', serif;
+  }
+  
+  body {
+    background: url("https://img-www.tf-cdn.com/show/2/stranger-things.jpeg?_v=20171031231650&w=1024&h=512&dpr=1&auto=compress&fm=pjpg&fit=crop&crop=faces%2Ctop") fixed;
+    background-size: cover;
+    color: white;
+    
   }
   
   header {
     text-align: center;
+    padding-bottom: 5px;
   }
   
   .logo {
@@ -13,49 +22,89 @@
   
   ul {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   main {
     text-align: center;
-  margin-top: 50px;
-  border: black solid 1px;
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+    margin-top: 50px;
   }
   
   .startButton {
     margin-top: 30px;
-  }
-
-  h2 {
-    margin-bottom: 30px;
+  
   }
   
-  .answerOption {
+  .questionAnswerForm {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: solid 3px black;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  label {
     display: block;
     text-align: left;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 5px;
-    padding: 10px;
-    border: black solid 1px;
+    border: solid 1px rgb(131, 23, 23);
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
   }
   
-  .submitButton {
-    margin-top: 30px;
+  label:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
   }
-
-  .answerImage {
-    width: 300px;
-    margin-bottom: 30px;
+  
+  img {
+    width: 50%;
+    margin-bottom: 10px;
   }
-
+  
+  button {
+    margin-top: 5px;
+    border: solid 1px rgb(131, 23, 23);
+    border-radius: 2px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
   .nextButton {
-    margin-top: 30px;
+    margin-top: 15px;
   }
-
-  p {
-    margin-top: 30px;
+  
+  h3, p {
+    margin-bottom: 10px;
+  }
+  
+  .restartButton {
+    margin-top: 5px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    h2 {
+      font-size: 20px;
+    }
+  
+    img {
+      width: 75%;
+    }
   }
