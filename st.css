@@ -5,7 +5,7 @@
   }
   
   body {
-    background: url("https://img-www.tf-cdn.com/show/2/stranger-things.jpeg?_v=20171031231650&w=1024&h=512&dpr=1&auto=compress&fm=pjpg&fit=crop&crop=faces%2Ctop") fixed;
+    background: url(images/STBackground.jpeg) fixed;
     background-size: cover;
     color: white;
     
@@ -100,6 +100,11 @@
   }
   
   @media screen and (max-width: 500px) {
+    body {
+      background: url(images/STBackgroundMobile.jpeg) fixed;
+      background-size: cover;
+    }
+
     h2 {
       font-size: 20px;
     }
